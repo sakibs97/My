@@ -56,10 +56,10 @@ const EmailPart = () => {
                     try my best to get back to you!
                 </p>
                 <div className="socials flex flex-row gap-2">
-                    <Link href="github.com">
+                    <Link href="https://github.com/sakibs97">
                         <FaGithub className='h-10 w-10 text-[#ADB7BE]  cursor-pointer' />
                     </Link>
-                    <Link href="linkedin.com">
+                    <Link href="/linkedin.com">
                         <IoLogoLinkedin className='h-10 w-10 text-[#ADB7BE]  cursor-pointer' />
                     </Link>
                 </div>
@@ -113,13 +113,13 @@ const EmailPart = () => {
                             <textarea
                                 name="message"
                                 id="message"
-                                className="bg-[#18191E] border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
+                                className="bg-[#18191E] z-10 border border-[#33353F] placeholder-[#9CA2A9] text-gray-100 text-sm rounded-lg block w-full p-2.5"
                                 placeholder="Let's talk about..."
                             />
                         </div>
                         <button
                             type="submit"
-                            className="bg-primary-500 hover:bg-primary-600 text-white font-medium py-2.5 px-5 rounded-lg w-full"
+                            className="bg-primary-500 z-10 hover:bg-primary-600 text-white font-medium py-2.5 px-5 rounded-lg w-full"
                         >
                             Send Message
                         </button>

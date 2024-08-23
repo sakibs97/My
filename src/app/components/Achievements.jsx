@@ -9,9 +9,9 @@ const achievementsList = [
         postfix: "+",
     },
     {
-        prefix: "~",
         metric: "Users",
-        value: 100000,
+        value: 1000,
+        prefix: "+",
     },
     {
         metric: "Awards",
@@ -20,17 +20,18 @@ const achievementsList = [
     {
         metric: "Years",
         value: 10,
+        postfix: "+",
     },
 ];
 
 const Achievements = () => {
     return (
         <div className='py-8 px-4 xl:gap-16 sm:py-16 xl:px-16'>
-            <div className="border-[#33353F] border rounded-md py-8 px-16 flex flex-row items-center justify-between">
+            <div className="border-[#33353F] flex-wrap border rounded-md py-8 px-16 flex flex-row text-center items-center justify-between">
                 {achievementsList.map((achievement, index) => (
-                    <div className="flex flex-col items-center justify-center mx-4" key={index}>
+                    <div className="flex flex-col items-center justify-center mx-4 my-5 lg:my-0" key={index}>
                         <h2 className='text-white text-4xl font-bold flex flex-row'>
-                            {achievement.prefix}
+
                             <CountUp
                                 end={achievement.value}
                                 duration={5}
