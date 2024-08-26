@@ -38,8 +38,8 @@ let projectData = [
         description: "Project 1 description",
         image: "/projects/4.png",
         tag: ["All", "Mobile"],
-        gitUrl: "/",
-        PreviewUrl: "/",
+        gitUrl: "/https://sakibs97.github.io/singup/",
+        PreviewUrl: "/https://singsh.vercel.app/",
     },
     {
         id: 5,
