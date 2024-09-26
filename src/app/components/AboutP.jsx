@@ -2,7 +2,6 @@
 import React, { useTransition, useState } from 'react'
 import Image from 'next/image'
 import TabButton from './TabButton'
-import { Content } from 'next/font/google'
 
 let TAB_DATA = [
     {
@@ -10,11 +9,14 @@ let TAB_DATA = [
         id: "skills",
         content: (
             <ul className='list-disc pl-2'>
-                <li>Node.js</li>
-                <li>Node.js</li>
-                <li>Node.js</li>
-                <li>Node.js</li>
-                <li>Node.js</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>Javascript</li>
+                <li>Figma to HTML</li>
+                <li>Bootstrap</li>
+                <li>React.js/Redux</li>
+                <li>Tailwind CSS</li>
+                <li>Responsive design</li>
             </ul>
         )
     },
@@ -24,6 +26,7 @@ let TAB_DATA = [
         content: (
             <ul className='list-disc pl-2'>
                 <li>Naogaon Govt. College</li>
+                <li>Front End Web Development with React</li>
             </ul>
         )
     },
@@ -33,6 +36,7 @@ let TAB_DATA = [
         content: (
             <ul className='list-disc pl-2'>
                 <li>English</li>
+                <li>Front End Web Developer</li>
             </ul>
         )
     }
