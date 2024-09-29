@@ -7,7 +7,7 @@ import { motion } from 'framer-motion';
 
 const Header = () => {
     return (
-        <section className='lg:py-16'>
+        <section className='lg:pt-16' id='header'>
             <div className="grid grid-cols-1 sm:grid-cols-12">
                 <motion.div
                     initial={{ opacity: 0, scale: 0.5 }}
@@ -32,7 +32,7 @@ const Header = () => {
                         />
                     </h1>
                     <p className='text-[#ADB7BE] text-base sm:text-lg lg:text-xl mb-6'>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, libero aperiam dignissimos ad optio consequatur reprehenderit earum aspernatur. Quisquam, illo.
+                        I design and code beautifully simple things, and I love what I do.
                     </p>
                     <div className="">
                         <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-primary-500 to-secondary-500  hover:bg-slate-200 text-[white]'>Hire Me</button>
