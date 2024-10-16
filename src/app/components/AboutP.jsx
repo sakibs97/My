@@ -51,7 +51,7 @@ const AboutP = () => {
                 <div className="mt-4 lg:mt-0 text-left flex flex-col h-full">
                     <h2 className='text-4xl font-bold text-white mb-4'>About Me</h2>
                     <p className='text-base lg:text-lg'>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Unde soluta perferendis velit possimus ullam alias fugit sit aliquam magni sapiente sunt at quas, eaque nam tempora porro sint expedita inventore labore minima obcaecati non! Blanditiis corrupti sit, placeat similique, illo eius deleniti voluptas, atque quasi vel pariatur esse animi illum.
+                        I am a frontend developer with more than 1 year of experience. From static websites to complex web projects, I can handle them all. I am passionate about transforming my client's visions into websites that truly reflect their brand identity Providing support, maintenance and clear communication throughout the process is one of my greatest strengths. I believe in providing quality code, real-time updates, pixel-perfect design and optimization of websites.
                     </p>
                     <div className="flex flex-row justify-start mt-8">
                         <TabButton selectTab={() => handelTabChange("skills")} active={tab === "skills"}> {""} Skills {""} </TabButton>
