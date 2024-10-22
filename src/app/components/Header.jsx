@@ -3,6 +3,7 @@ import React from 'react'
 import Image from 'next/image'
 import { TypeAnimation } from 'react-type-animation';
 import { motion } from 'framer-motion';
+import Link from 'next/link';
 
 
 const Header = () => {
@@ -36,9 +37,13 @@ const Header = () => {
                     </p>
                     <div className="">
                         <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-500 via-primary-500 to-secondary-500  hover:bg-slate-200 text-[white]'>Hire Me</button>
-                        <button className='px-1 py-1 w-full sm:w-fit rounded-full hover:bg-slate-800 text-white mt-3 bg-gradient-to-br from-blue-500 via-primary-500 to-pink-500'>
-                            <span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2'>Download CV</span>
-                        </button>
+                        <Link href='Sakib-Hossain.pdf'
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <button className='px-1 py-1 w-full sm:w-fit rounded-full hover:bg-slate-800 text-white mt-3 bg-gradient-to-br from-blue-500 via-primary-500 to-pink-500'>
+                                <span className='block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2'>Download CV</span>
+                            </button></Link>
                     </div>
                 </motion.div>
                 <motion.div
