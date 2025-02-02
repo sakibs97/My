@@ -134,7 +134,6 @@ const ProjectPart = () => {
                             imgUrl={project.image}
                             gitUrl={project.gitUrl}
                             PreviewUrl={project.PreviewUrl}
-
                         />
                     </motion.li>
                 ))}
