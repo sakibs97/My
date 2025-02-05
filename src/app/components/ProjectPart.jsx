@@ -38,8 +38,8 @@ let projectData = [
         description: "This Project is a learning platform built with ReactJS, designed to deliver an interactive and dynamic user experience. The project leverages React’s component-based architecture to create a responsive and modular interface, simplifying content delivery and enhancing user engagement.",
         image: "/projects/learnone.png",
         tag: ["All", "Landing Page", "React"],
-        gitUrl: "https://github.com/sakibs97/Project-Learn",
-        PreviewUrl: "https://learnone.vercel.app/",
+        gitUrl: "https://github.com/sakibs97/Educate-Project",
+        PreviewUrl: "https://educate-project.vercel.app/",
     },
     {
         id: 5,
@@ -87,7 +87,7 @@ let projectData = [
         PreviewUrl: "https://orebis.vercel.app/",
     },
     {
-        id: 8,
+        id: 9,
         title: "Single Page",
         description: "This project is a responsive single-page application built with React.js, providing a smooth user experience through dynamic content loading. It adapts to different screen sizes, ensuring usability across all devices.",
         image: "/projects/react-single.png",
@@ -95,6 +95,16 @@ let projectData = [
         gitUrl: "https://github.com/sakibs97/React-Single-Page",
         PreviewUrl: "https://react-single.vercel.app/",
     },
+    {
+        id: 10,
+        title: "Digital Marketing Agency",
+        description: "This project is a responsive single-page application built with React.js, providing a smooth user experience through dynamic content loading. It adapts to different screen sizes, ensuring usability across all devices.",
+        image: "/projects/agency.png",
+        tag: ["All", "React"],
+        gitUrl: "https://github.com/sakibs97/Agency-Based-Multi-Page-Web-Layout",
+        PreviewUrl: "https://agency-multi.vercel.app/",
+    },
+
 ]
 
 const ProjectPart = () => {
